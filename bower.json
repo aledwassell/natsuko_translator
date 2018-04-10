@@ -1,0 +1,27 @@
+{
+  "name": "natsuko_wassell",
+  "homepage": "https://github.com/aledwassell/Aled-Website-Glory",
+  "authors": [
+    "aledwassell <aledwassell@googlemail.com>"
+  ],
+  "description": "Natsuko Wassell is a freelance translator",
+  "main": "index.html",
+  "keywords": [
+    "translator",
+    "interpretor",
+    "Japanese",
+    "Japan"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tachyons": "4.9.1"
+  }
+}
