@@ -15,12 +15,15 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="bower_components/tachyons/css/tachyons.min.css">
         <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="main-container">
             <header>
                 <nav class="pa3 pa4-ns">
-                    <h1 class="link dim black f1 lh-title tc db mb3 mb4-ns">App Name</h1>
+                    <h1 class="link dim black f1 lh-title tc db mb3 mb4-ns">Natsuko</h1>
                     <div class="tc pb3">
                         <h3 class="link dim gray f6 f5-ns dib">Freelance English & Japanese Translator</h3>
                     </div>
@@ -29,21 +32,18 @@
             <content class="content">
                 <div class="about">
                     <h3 class="link dim gray f6 f5-ns dib">
-                        ABOUT:
+                        about:
                     </h3>
                     <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        <a href="about:blank">
-                            <button class="mt3">
-                                View CV
-                            </button>
-                        </a>
-
+                        "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <button class="mt3">
+                            View CV
+                        </button>
                     </p>
                 </div>
                 <div class="clients">
                     <h3 class="link dim gray f6 f5-ns dib">
-                        TESMONIALS:
+                        testmonials:
                     </h3>
                     <p>
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -51,7 +51,7 @@
                 </div>
                 <div class="contact">
                     <h3 class="link dim gray f6 f5-ns dib">
-                        GET IN TOUCH
+                        get in touch:
                     </h3>
                     <div>
                         <p>
@@ -71,11 +71,18 @@
 
                 </div>
             </content>
-            <footer></footer>
+            <footer class="footer pa2 gray">
+
+            </footer>
         </div>
 
-
-
+        <script>
+            let d = new Date(),
+                f = document.getElementsByClassName('footer')[0];
+                y = d.getFullYear();
+            f.innerHTML = `<a href="http://aledwassell.uk" class="link">aledwassell.uk &copy; ${y}</a>`
+            console.log(f)
+        </script>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
