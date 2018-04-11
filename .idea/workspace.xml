@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea5e5b7e-2679-4cb3-8031-e7096c9e7960" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,22 +14,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+            <state relative-caret-position="65">
+              <caret line="39" column="471" lean-forward="false" selection-start-line="39" selection-start-column="471" selection-end-line="39" selection-end-column="471" />
               <folding>
-                <marker date="1523395819888" expanded="true" signature="4136:4142" ph="©" />
+                <marker date="1523426039766" expanded="true" signature="4240:4246" ph="©" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="1035">
               <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
               <folding />
             </state>
@@ -50,8 +50,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -282,7 +282,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523341503165</updated>
-      <workItem from="1523341504330" duration="7362000" />
+      <workItem from="1523341504330" duration="7545000" />
     </task>
     <task id="LOCAL-00001" summary="adding gh-pages">
       <created>1523343450846</created>
@@ -298,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523396102292</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Altering grid size on smaller devices">
+      <created>1523425886077</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523425886077</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7362000" />
+    <option name="totallyTimeSpent" value="7545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="0" />
@@ -335,7 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding gh-pages" />
+    <MESSAGE value="Altering grid size on smaller devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Altering grid size on smaller devices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -347,7 +355,7 @@
         <state relative-caret-position="228">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <marker date="1523395819888" expanded="true" signature="4136:4142" ph="©" />
+            <marker date="1523426039766" expanded="true" signature="4240:4246" ph="©" />
           </folding>
         </state>
       </provider>
@@ -395,21 +403,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-          <folding>
-            <marker date="1523395819888" expanded="true" signature="4136:4142" ph="©" />
-          </folding>
+        <state relative-caret-position="1035">
+          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="65">
+          <caret line="39" column="471" lean-forward="false" selection-start-line="39" selection-start-column="471" selection-end-line="39" selection-end-column="471" />
+          <folding>
+            <marker date="1523426039766" expanded="true" signature="4240:4246" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>
