@@ -1,6 +1,6 @@
 {
   "name": "natsuko_wassell",
-  "homepage": "https://github.com/aledwassell/Aled-Website-Glory",
+  "homepage": "https://github.com/aledwassell/natsuko_translator",
   "authors": [
     "aledwassell <aledwassell@googlemail.com>"
   ],
@@ -15,9 +15,7 @@
   "license": "MIT",
   "private": true,
   "ignore": [
-    "**/.*",
     "node_modules",
-    "bower_components",
     "test",
     "tests"
   ],
